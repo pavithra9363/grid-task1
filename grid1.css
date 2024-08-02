@@ -1,0 +1,83 @@
+ .Container1{ 
+    grid-area: Container1;
+}
+.Container2{ 
+    grid-area: Container2;
+}.Container3{ 
+    grid-area: Container3;
+}.Container4{ 
+    grid-area: Container4;
+}.Container5{ 
+    grid-area: Container5;
+} 
+.griedContainer{
+    
+
+    display: grid;
+    background-color:rgba(225,225,225,0.8);
+    grid-template-areas:
+       'Container1  Container1  Container1 Container1  ' 
+       'Container2  Container3 Container3   Container4   '
+       'Container5  Container5  Container5 Container5 ';
+       /* padding: 20px; */
+       gap: 10px;
+       /* height: 90vh;
+    width: 90vw;
+  */
+  grid-template-rows:100px 300px  100px  ;
+
+}
+
+.Container1{
+    background-color: rgb(38, 87, 235);
+    /* padding: 20px; */
+    font-size: large;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Container2{
+
+background-color:cornflowerblue;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    /* padding-top:150px;
+    padding-bottom: 150px; */
+
+}
+.Container4{
+    background-color: cornflowerblue;
+        text-align: center;
+        color: white;
+        font-size: 30px;
+        font-family: 'Times New Roman', Times, serif;
+         /* padding-top:150px;
+        padding-bottom: 150px; 
+         */
+    }
+
+        
+                                                      /* padding dont give four side then give responsive is not come*/
+    .Container3{
+        background-color: rgb(177, 176, 176);
+        font-size: large;
+        text-align: center;
+        color: white;
+        font-size: 30px;
+        font-family: 'Times New Roman', Times, serif;
+        /* padding-top:150px;
+        padding-bottom: 150px; 
+         */
+    } 
+    .Container5{
+        background-color: rgb(38, 87, 235);
+        /* padding: 20px; */
+        text-align: center;
+        color: white;
+        font-size: 30px;
+        font-family: 'Times New Roman', Times, serif;
+    }   
